@@ -1,5 +1,4 @@
-# NativeChat v0.1  
-**By R. Hasaranga** © 2024  
+# NativeChat v0.1   
 
 ![NativeChat](ui.png)
 
