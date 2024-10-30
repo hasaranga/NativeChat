@@ -45,7 +45,7 @@ NativeChat supports single model with various LoRA adapters rather than needing 
 - **Show Initialization**: To view the system prompt on loading, enable the "Show Initialization" option in the settings.
 
 - **Using CUDA for Improved Performance**:  
-   For larger models or improved inference speed, replace the following files with their CUDA-equivalent versions. By default, supplied files only utilize the CPU, allowing simple models to run on older systems. ((llamacpp releases)[https://github.com/ggerganov/llama.cpp/releases])
+   For larger models or improved inference speed, replace the following files with their CUDA-equivalent versions. By default, supplied files only utilize the CPU, allowing simple models to run on older systems. ([llamacpp releases](https://github.com/ggerganov/llama.cpp/releases))
    - `ggml.dll`
    - `llama.dll`
    - `llama-cli.exe`
