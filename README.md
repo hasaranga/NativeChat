@@ -1,4 +1,4 @@
-# NativeChat v0.1   
+# NativeChat  
 
 ![NativeChat](ui.png)
 
