@@ -2,7 +2,9 @@
 
 ![NativeChat](ui.png)
 
-**NativeChat** is a straightforward, native frontend for **llama-cli**. It redirects the console input and output of llama-cli into a dedicated gui interface.
+**NativeChat** is a simple, native frontend for **llama-cli**. It redirects the console input and output of llama-cli into a dedicated gui interface.
+
+[Download from Here...](https://github.com/hasaranga/NativeChat/releases)
 
 ## Installation
 
@@ -34,7 +36,7 @@ NativeChat supports single model with various LoRA adapters rather than needing 
 
 ## Text Embeddings Feature
 
-1. Download `nomic-embed-text-v1.5.Q8_0.gguf` and place it in the program directory.
+1. Download [nomic-embed-text-v1.5.Q8_0.gguf](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/tree/main) and place it in the program directory.
 2. Create a UTF-8 formatted text file containing the knowledge data, with each paragraph separated by `\r\n\r\n`.
 3. Import this text file into the vector database using the **Add to Vector Database** option.
 4. Enable the **Answer Using Vector Database** option to utilize embedded text responses.
@@ -44,7 +46,7 @@ NativeChat supports single model with various LoRA adapters rather than needing 
 - **Show Initialization**: To view the system prompt on loading, enable the "Show Initialization" option in the settings.
 
 - **Using CUDA for Improved Performance**:  
-   For larger models or improved inference speed, replace the following files with their CUDA-equivalent versions. By default, supplied files only utilize the CPU, allowing simple models to run on older systems. ([llamacpp releases](https://github.com/ggerganov/llama.cpp/releases))
+   For larger models or improved inference speed, replace the following files with their [CUDA-equivalent versions](https://github.com/ggerganov/llama.cpp/releases). By default, supplied files only utilize the CPU, allowing simple models to run on older systems.
    - `ggml.dll`
    - `llama.dll`
    - `llama-cli.exe`
