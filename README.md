@@ -4,7 +4,7 @@
 
 ![NativeChat](ui2.png)
 
-**NativeChat** is a simple, native frontend for **llama-cli**. It redirects the console input and output of llama-cli into a dedicated gui interface.
+**NativeChat** is a simple, native frontend for **llama-cli**. It redirects the console input and output of llama-cli into a gui interface.
 
 [Download from here...](https://github.com/hasaranga/NativeChat/releases)
 
