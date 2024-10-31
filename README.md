@@ -2,9 +2,11 @@
 
 ![NativeChat](ui.png)
 
+![NativeChat](ui2.png)
+
 **NativeChat** is a simple, native frontend for **llama-cli**. It redirects the console input and output of llama-cli into a dedicated gui interface.
 
-[Download from Here...](https://github.com/hasaranga/NativeChat/releases)
+[Download from here...](https://github.com/hasaranga/NativeChat/releases)
 
 ## Installation
 
@@ -12,7 +14,7 @@
    Locate and install the C++ runtime in the `redist` directory (`VC_redist 2015-2022.x64.exe`).
 
 2. **Download Required Models**:  
-   Download the necessary GGUF models from [Hugging Face](https://huggingface.co/) and place them in the `models` directory. ([qwen2.5-0.5b-instruct-q5_k_m.gguf](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/tree/main))
+   Download the necessary GGUF models from [Hugging Face](https://huggingface.co/) and place them in the `models` directory. ([qwen2.5-0.5b-instruct-q5_k_m.gguf](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q5_k_m.gguf?download=true))
 
 ## Usage
 
@@ -36,7 +38,7 @@ NativeChat supports single model with various LoRA adapters rather than needing 
 
 ## Text Embeddings Feature
 
-1. Download [nomic-embed-text-v1.5.Q8_0.gguf](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/tree/main) and place it in the program directory.
+1. Download [nomic-embed-text-v1.5.Q8_0.gguf](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.Q8_0.gguf?download=true) and place it in the program directory.
 2. Create a UTF-8 formatted text file containing the knowledge data, with each paragraph separated by `\r\n\r\n`.
 3. Import this text file into the vector database using the **Add to Vector Database** option.
 4. Enable the **Answer Using Vector Database** option to utilize embedded text responses.
