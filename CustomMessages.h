@@ -1,7 +1,4 @@
 
-// (c) 2024 CrownSoft
-// https://www.crownsoft.net
-
 #pragma once
 
 #define MODEL_LOADING_MSG 101

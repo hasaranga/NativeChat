@@ -1,7 +1,4 @@
 
-// (c) 2024 CrownSoft
-// https://www.crownsoft.net
-
 #pragma once
 
 #include "rfc/rfc.h"
